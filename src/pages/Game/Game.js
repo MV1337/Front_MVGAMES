@@ -9,24 +9,22 @@ const Game = () => {
 
   const [game, setGame] = useState([]);
 
-  const [loading, setLoading] = useState(true)
+  const [loading, setLoading] = useState(true);
 
   useEffect(() => {
     axios
       .get(`https://api-mv-games.herokuapp.com/api/games/${id}`)
       .then((response) => {
         setGame(response.data);
-        setLoading(false)
+        setLoading(false);
       })
       .catch(() => {
         console.log("Ocorreu algum erro");
       });
   }, [id]);
 
-  if(loading) {
-    return <div className={style.c_loader}></div>
-      
-    
+  if (loading) {
+    return <div className={style.c_loader}></div>;
   }
 
   return (
@@ -36,7 +34,7 @@ const Game = () => {
       <p>{game.details}</p>
       <p>Veja o trailer do jogo logo abaixo.</p>
       <div className={style.video}>
-        <iframe src={game.url} title={game.title} allowfullscreen></iframe>
+        <iframe src={game.url} title={game.title}></iframe>
       </div>
       <p>O jogo foi lançado em {game.year}.</p>
     </div>

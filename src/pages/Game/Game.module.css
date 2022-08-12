@@ -40,7 +40,8 @@
     }
 
    .game_container h1, p {
-    margin: 10px;
+    margin: 10px 0px;
+    text-align: center;
     text-align: center;
     padding: 10px;
    }

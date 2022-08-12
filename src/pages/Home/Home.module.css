@@ -80,3 +80,17 @@
         transform: rotate(1turn);
     }
 }
+
+@media only screen and (max-width: 640px) {
+
+    .game_container {
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    .game_card {
+        width: 80%;
+        height: 425px;
+    }
+
+}
