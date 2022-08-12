@@ -1,0 +1,52 @@
+.game_container{
+    text-align: center;
+    max-width: 60%;
+    margin: 0px auto;
+    
+}
+
+.game_container p{
+    font-weight: bold;
+    font-size: 1.5em;
+    line-height: 30px;
+}
+
+.video iframe{
+    border-radius: 16px;
+    width: 510px;
+    height: 315px;
+    border: none;
+}
+
+.c_loader {
+    animation: is-rotating 1s infinite;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: 6px solid #e5e5e5;
+    border-top-color: #08AEEA;
+    margin: 100px auto;
+}
+
+@keyframes is-rotating {
+    to {
+        transform: rotate(1turn);
+    }
+}
+
+@media only screen and (max-width: 640px) {
+    .game_container {
+        max-width: 100%;
+    }
+
+   .game_container h1, p {
+    margin: 10px;
+    text-align: center;
+    padding: 10px;
+   }
+
+    .video iframe{
+        width: 100%;
+        border-radius: 3px;
+    }
+}

@@ -1,0 +1,82 @@
+.center {
+    text-align: center;
+    color: black;
+    font-weight: bold;
+}
+
+.game_container {
+    width: 90%;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    margin: 40px auto;
+}
+
+.game_card {
+    width: 320px;
+    height: 400px;
+    margin: 25px;
+    border-radius: 20px;
+    background-color: black;
+    overflow: hidden;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.7);
+    transition: 0.3s;
+}
+
+.game_card_img {
+    width: 100%;
+    height: 200px;
+}
+
+.card_img {
+    min-width: 100%;
+    width: 100%;
+    height: 100%;
+}
+
+.card_body {
+    height: 170px;
+    padding: 15px;
+    text-align: center;
+}
+
+.title {
+    font-size: 32px;
+    margin: 20px 0;
+    margin-top: 30px;
+    color: white;
+}
+
+.card_footer {
+    margin-top: 20px;
+    text-align: center;
+    background-color: black;
+    margin-left: 0;
+}
+
+.button {
+    color: #fff;
+    display: block;
+    padding: 12px;
+}
+
+.game_card:hover {
+    transform: scale3d(1.1, 1.1, 1);
+}
+
+
+.c_loader {
+    animation: is-rotating 1s infinite;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: 6px solid #e5e5e5;
+    border-top-color: #08AEEA;
+    margin: 100px auto;
+}
+
+@keyframes is-rotating {
+    to {
+        transform: rotate(1turn);
+    }
+}
