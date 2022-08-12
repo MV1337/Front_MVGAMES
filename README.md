@@ -2,7 +2,7 @@
 
 
 ## Projeto MV GAMES 
-Um projeto criado para consumir uma API criada por mim, que trás alguns dos jogos mais jogados do momento!! <br/>
+Um projeto criado para consumir uma API criada por mim, que trás alguns dos jogos mais jogados do momento. <br/>
 Os dados da API podem ser acessados neste link - https://api-mv-games.herokuapp.com/api/games
 
 
