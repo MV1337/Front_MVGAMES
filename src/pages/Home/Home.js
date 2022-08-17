@@ -12,13 +12,13 @@ const Home = () => {
   const { games, loading } = useContext(GameContext);
 
   if (loading) {
-    return <div className={styles.c_loader}></div>
+    return <div className={styles.c_loader}></div>;
   }
 
   return (
     <main>
       <h1 className={styles.center}>
-        Os melhores jogos e os mais jogados do momento!!!
+        Os melhores jogos e os mais jogados do momento
       </h1>
 
       <div className={styles.game_container}>

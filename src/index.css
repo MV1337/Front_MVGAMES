@@ -6,8 +6,10 @@ body {
     background-attachment: fixed;
 }
 
+
+
 a,
-nav button{
+nav button {
     text-decoration: none;
     background-color: transparent;
     border: none;
@@ -29,9 +31,8 @@ nav button:hover {
     background-color: white;
 }
 
-::-webkit-scrollbar-thumb{
+::-webkit-scrollbar-thumb {
     background-color: #9FACE6;
     background-color: #9cf5e4;
     border-radius: 20px;
 }
-
