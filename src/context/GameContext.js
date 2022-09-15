@@ -10,7 +10,7 @@ export const GameContextProvider = ({ children }) => {
 
   useEffect(() => {
     axios
-      .get("https://api-mv-games.herokuapp.com/api/games")
+    .get("http://167.172.140.193:3000/api/games")
       .then((response) => {
         setGames(response.data);
         setLoading(false);

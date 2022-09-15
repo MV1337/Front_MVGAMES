@@ -1,4 +1,4 @@
 //url api
-export const uploads = 'https://api-mv-games.herokuapp.com/'
+export const uploads = 'http://167.172.140.193:3000/'
 
 

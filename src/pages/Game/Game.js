@@ -13,7 +13,7 @@ const Game = () => {
 
   useEffect(() => {
     axios
-      .get(`https://api-mv-games.herokuapp.com/api/games/${id}`)
+    .get(`http://167.172.140.193:3000/api/games/${id}`)
       .then((response) => {
         setGame(response.data);
         setLoading(false);
