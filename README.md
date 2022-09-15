@@ -3,7 +3,7 @@
 
 ## Projeto MV GAMES 
 Um projeto criado para consumir uma API criada por mim, que trás alguns dos jogos mais jogados do momento. <br/>
-Os dados da API podem ser acessados neste link - https://api-mv-games.herokuapp.com/api/games
+Os dados da API podem ser acessados neste link - http://167.172.140.193:3000/api/games
 
 
 ## Tecnologias 
@@ -33,7 +33,7 @@ Os dados da API podem ser acessados neste link - https://api-mv-games.herokuapp.
 ![Image](https://github.com/MV1337/images/blob/master/mv_games/about.png)
 
   ## Links
-  - Deploy: https://front-mvgames.vercel.app/
+  - Deploy: http://167.172.140.193:3000/api/games
   
   ## Autores
 
